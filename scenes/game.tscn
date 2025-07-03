@@ -466,6 +466,7 @@ position = Vector2(536, -113)
 [node name="Labels" type="Node" parent="."]
 
 [node name="Label" type="Label" parent="Labels"]
+z_index = 2
 offset_left = -142.0
 offset_top = -4.0
 offset_right = -32.0
@@ -476,6 +477,7 @@ theme_override_font_sizes/font_size = 8
 text = "Space to jump ..."
 
 [node name="Label2" type="Label" parent="Labels"]
+z_index = 2
 offset_left = 674.0
 offset_top = -89.0
 offset_right = 784.0
@@ -486,6 +488,7 @@ theme_override_font_sizes/font_size = 8
 text = "Falling hurts ..."
 
 [node name="Label3" type="Label" parent="Labels"]
+z_index = 2
 offset_left = 893.0
 offset_top = -98.0
 offset_right = 1003.0
@@ -496,6 +499,7 @@ theme_override_font_sizes/font_size = 8
 text = "Almost there ..."
 
 [node name="Label4" type="Label" parent="Labels"]
+z_index = 2
 offset_left = 1109.0
 offset_top = -204.0
 offset_right = 1219.0
